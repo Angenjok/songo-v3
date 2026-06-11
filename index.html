@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Songo V3 Online</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+  <h1>🌍 Songo V3 Online</h1>
+
+  <input id="room" placeholder="Code salle">
+  <button onclick="joinRoom()">Rejoindre</button>
+
+  <div id="board"></div>
+
+  <p id="status">En attente...</p>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="game.js"></script>
+
+</body>
+</html>
